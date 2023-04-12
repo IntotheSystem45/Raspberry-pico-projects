@@ -1,5 +1,4 @@
-# This example shows you a simple, non-interrupt way of reading Pico Display's buttons with a loop that checks to see if buttons are pressed.
-
+# This is an example for how you can use the buttons on a PICO display to move a ball around.
 import time
 from pimoroni import Button
 from picographics import PicoGraphics, DISPLAY_PICO_DISPLAY, PEN_P4
@@ -8,7 +7,7 @@ from picographics import PicoGraphics, DISPLAY_PICO_DISPLAY, PEN_P4
 display = PicoGraphics(display=DISPLAY_PICO_DISPLAY, pen_type=PEN_P4, rotate=0)
 
 display.set_backlight(0.5)
-display.set_font("bitmap8")
+display.set_font("bitmap8") # Allows the use of the screen on the PICO display
 
 button_a = Button(12)
 button_b = Button(13)
