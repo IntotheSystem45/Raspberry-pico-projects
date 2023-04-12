@@ -13,7 +13,7 @@ time.sleep(.25)
 led.off()
 time.sleep( .25)
 led.on()
-print('This is Humza')
+print('This is Raspberry PICO')
 
 
 
