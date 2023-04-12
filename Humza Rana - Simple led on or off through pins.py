@@ -24,7 +24,7 @@ elif(var == 3): # Fastest2 speed
         led.value(0)
         time.sleep(.1)
 elif(var != 1 or 2 or 3): # Response is none of the above
-      print("invlaid response")
+      print("invalid response")
       led.value(0)
         
         
